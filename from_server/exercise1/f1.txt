@@ -1,0 +1,3 @@
+hello 
+more hello 
+hopefully in all files
