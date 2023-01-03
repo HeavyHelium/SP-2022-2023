@@ -1,0 +1,352 @@
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root           1  0.0  0.0 166976 12176 ?        Ss   14:55   0:01 /sbin/init splash
+root           2  0.0  0.0      0     0 ?        S    14:55   0:00 [kthreadd]
+root           3  0.0  0.0      0     0 ?        I<   14:55   0:00 [rcu_gp]
+root           4  0.0  0.0      0     0 ?        I<   14:55   0:00 [rcu_par_gp]
+root           5  0.0  0.0      0     0 ?        I<   14:55   0:00 [netns]
+root           7  0.0  0.0      0     0 ?        I<   14:55   0:00 [kworker/0:0H-events_highpri]
+root           9  0.0  0.0      0     0 ?        I<   14:55   0:00 [mm_percpu_wq]
+root          10  0.0  0.0      0     0 ?        S    14:55   0:00 [rcu_tasks_rude_]
+root          11  0.0  0.0      0     0 ?        S    14:55   0:00 [rcu_tasks_trace]
+root          12  0.0  0.0      0     0 ?        S    14:55   0:00 [ksoftirqd/0]
+root          13  0.0  0.0      0     0 ?        I    14:55   0:06 [rcu_sched]
+root          14  0.0  0.0      0     0 ?        S    14:55   0:00 [migration/0]
+root          15  0.0  0.0      0     0 ?        S    14:55   0:00 [idle_inject/0]
+root          17  0.0  0.0      0     0 ?        S    14:55   0:00 [cpuhp/0]
+root          18  0.0  0.0      0     0 ?        S    14:55   0:00 [cpuhp/1]
+root          19  0.0  0.0      0     0 ?        S    14:55   0:00 [idle_inject/1]
+root          20  0.0  0.0      0     0 ?        S    14:55   0:00 [migration/1]
+root          21  0.0  0.0      0     0 ?        S    14:55   0:00 [ksoftirqd/1]
+root          23  0.0  0.0      0     0 ?        I<   14:55   0:00 [kworker/1:0H-events_highpri]
+root          24  0.0  0.0      0     0 ?        S    14:55   0:00 [cpuhp/2]
+root          25  0.0  0.0      0     0 ?        S    14:55   0:00 [idle_inject/2]
+root          26  0.0  0.0      0     0 ?        S    14:55   0:00 [migration/2]
+root          27  0.0  0.0      0     0 ?        S    14:55   0:00 [ksoftirqd/2]
+root          29  0.0  0.0      0     0 ?        I<   14:55   0:00 [kworker/2:0H-events_highpri]
+root          30  0.0  0.0      0     0 ?        S    14:55   0:00 [cpuhp/3]
+root          31  0.0  0.0      0     0 ?        S    14:55   0:00 [idle_inject/3]
+root          32  0.0  0.0      0     0 ?        S    14:55   0:00 [migration/3]
+root          33  0.0  0.0      0     0 ?        S    14:55   0:00 [ksoftirqd/3]
+root          35  0.0  0.0      0     0 ?        I<   14:55   0:00 [kworker/3:0H-events_highpri]
+root          36  0.0  0.0      0     0 ?        S    14:55   0:00 [cpuhp/4]
+root          37  0.0  0.0      0     0 ?        S    14:55   0:00 [idle_inject/4]
+root          38  0.0  0.0      0     0 ?        S    14:55   0:00 [migration/4]
+root          39  0.0  0.0      0     0 ?        S    14:55   0:00 [ksoftirqd/4]
+root          41  0.0  0.0      0     0 ?        I<   14:55   0:00 [kworker/4:0H-events_highpri]
+root          42  0.0  0.0      0     0 ?        S    14:55   0:00 [cpuhp/5]
+root          43  0.0  0.0      0     0 ?        S    14:55   0:00 [idle_inject/5]
+root          44  0.0  0.0      0     0 ?        S    14:55   0:00 [migration/5]
+root          45  0.0  0.0      0     0 ?        S    14:55   0:00 [ksoftirqd/5]
+root          47  0.0  0.0      0     0 ?        I<   14:55   0:00 [kworker/5:0H-events_highpri]
+root          48  0.0  0.0      0     0 ?        S    14:55   0:00 [cpuhp/6]
+root          49  0.0  0.0      0     0 ?        S    14:55   0:00 [idle_inject/6]
+root          50  0.0  0.0      0     0 ?        S    14:55   0:00 [migration/6]
+root          51  0.0  0.0      0     0 ?        S    14:55   0:01 [ksoftirqd/6]
+root          53  0.0  0.0      0     0 ?        I<   14:55   0:00 [kworker/6:0H-events_highpri]
+root          54  0.0  0.0      0     0 ?        S    14:55   0:00 [cpuhp/7]
+root          55  0.0  0.0      0     0 ?        S    14:55   0:00 [idle_inject/7]
+root          56  0.0  0.0      0     0 ?        S    14:55   0:00 [migration/7]
+root          57  0.0  0.0      0     0 ?        S    14:55   0:00 [ksoftirqd/7]
+root          59  0.0  0.0      0     0 ?        I<   14:55   0:00 [kworker/7:0H-events_highpri]
+root          60  0.0  0.0      0     0 ?        S    14:55   0:00 [kdevtmpfs]
+root          61  0.0  0.0      0     0 ?        I<   14:55   0:00 [inet_frag_wq]
+root          62  0.0  0.0      0     0 ?        S    14:55   0:01 [kauditd]
+root          63  0.0  0.0      0     0 ?        S    14:55   0:00 [khungtaskd]
+root          64  0.0  0.0      0     0 ?        S    14:55   0:00 [oom_reaper]
+root          65  0.0  0.0      0     0 ?        I<   14:55   0:00 [writeback]
+root          66  0.0  0.0      0     0 ?        S    14:55   0:00 [kcompactd0]
+root          67  0.0  0.0      0     0 ?        SN   14:55   0:00 [ksmd]
+root          68  0.0  0.0      0     0 ?        SN   14:55   0:00 [khugepaged]
+root         116  0.0  0.0      0     0 ?        I<   14:55   0:00 [kintegrityd]
+root         117  0.0  0.0      0     0 ?        I<   14:55   0:00 [kblockd]
+root         118  0.0  0.0      0     0 ?        I<   14:55   0:00 [blkcg_punt_bio]
+root         119  0.0  0.0      0     0 ?        I<   14:55   0:00 [tpm_dev_wq]
+root         120  0.0  0.0      0     0 ?        I<   14:55   0:00 [ata_sff]
+root         121  0.0  0.0      0     0 ?        I<   14:55   0:00 [md]
+root         122  0.0  0.0      0     0 ?        I<   14:55   0:00 [edac-poller]
+root         123  0.0  0.0      0     0 ?        I<   14:55   0:00 [devfreq_wq]
+root         124  0.0  0.0      0     0 ?        S    14:55   0:00 [watchdogd]
+root         126  0.0  0.0      0     0 ?        I<   14:55   0:00 [kworker/0:1H-events_highpri]
+root         128  0.0  0.0      0     0 ?        S    14:55   0:00 [kswapd0]
+root         129  0.0  0.0      0     0 ?        S    14:55   0:00 [ecryptfs-kthrea]
+root         131  0.0  0.0      0     0 ?        I<   14:55   0:00 [kthrotld]
+root         132  0.0  0.0      0     0 ?        I<   14:55   0:00 [acpi_thermal_pm]
+root         134  0.0  0.0      0     0 ?        I<   14:55   0:00 [vfio-irqfd-clea]
+root         136  0.0  0.0      0     0 ?        I<   14:55   0:00 [kworker/2:1H-events_highpri]
+root         138  0.0  0.0      0     0 ?        I<   14:55   0:00 [mld]
+root         139  0.0  0.0      0     0 ?        I<   14:55   0:00 [ipv6_addrconf]
+root         148  0.0  0.0      0     0 ?        I<   14:55   0:00 [kstrp]
+root         152  0.0  0.0      0     0 ?        I<   14:55   0:00 [zswap-shrink]
+root         163  0.0  0.0      0     0 ?        I<   14:55   0:00 [charger_manager]
+root         185  0.0  0.0      0     0 ?        I<   14:55   0:00 [kworker/1:1H-events_highpri]
+root         218  0.0  0.0      0     0 ?        I<   14:55   0:00 [kworker/5:1H-events_highpri]
+root         219  0.0  0.0      0     0 ?        S    14:55   0:00 [irq/141-aerdrv]
+root         220  0.0  0.0      0     0 ?        S    14:55   0:00 [irq/141-pcie-dp]
+root         222  0.0  0.0      0     0 ?        I<   14:55   0:00 [kworker/6:1H-events_highpri]
+root         226  0.0  0.0      0     0 ?        I<   14:55   0:00 [nvme-wq]
+root         227  0.0  0.0      0     0 ?        I<   14:55   0:00 [kworker/4:1H-events_highpri]
+root         228  0.0  0.0      0     0 ?        I<   14:55   0:00 [nvme-reset-wq]
+root         229  0.0  0.0      0     0 ?        I<   14:55   0:00 [nvme-delete-wq]
+root         230  0.5  0.0      0     0 ?        S    14:55   0:39 [irq/57-ELAN1200]
+root         234  0.0  0.0      0     0 ?        S    14:55   0:00 [scsi_eh_0]
+root         235  0.0  0.0      0     0 ?        I<   14:55   0:00 [scsi_tmf_0]
+root         237  0.0  0.0      0     0 ?        I<   14:55   0:00 [kworker/7:1H-events_highpri]
+root         238  0.0  0.0      0     0 ?        S    14:55   0:00 [spi0]
+root         239  0.0  0.0      0     0 ?        I<   14:55   0:00 [kworker/3:1H-events_highpri]
+root         259  0.0  0.0      0     0 ?        S    14:55   0:00 [jbd2/nvme0n1p2-]
+root         260  0.0  0.0      0     0 ?        I<   14:55   0:00 [ext4-rsv-conver]
+root         301  0.1  1.6 378428 258992 ?       S<s  14:55   0:11 /lib/systemd/systemd-journald
+root         382  0.0  0.0  26980  7176 ?        Ss   14:55   0:00 /lib/systemd/systemd-udevd
+root         428  0.0  0.0      0     0 ?        I<   14:55   0:00 [cfg80211]
+root         433  0.0  0.0      0     0 ?        S    14:55   0:00 [irq/153-mei_me]
+root         438  0.0  0.0      0     0 ?        I<   14:55   0:00 [cryptd]
+root         439  0.0  0.0      0     0 ?        S    14:55   0:01 [irq/154-iwlwifi]
+root         440  0.0  0.0      0     0 ?        S    14:55   0:00 [irq/155-iwlwifi]
+root         441  0.0  0.0      0     0 ?        S    14:55   0:00 [irq/156-iwlwifi]
+root         442  0.0  0.0      0     0 ?        S    14:55   0:00 [irq/157-iwlwifi]
+root         443  0.0  0.0      0     0 ?        S    14:55   0:00 [irq/158-iwlwifi]
+root         444  0.0  0.0      0     0 ?        S    14:55   0:00 [irq/159-iwlwifi]
+root         445  0.0  0.0      0     0 ?        S    14:55   0:00 [irq/160-iwlwifi]
+root         446  0.0  0.0      0     0 ?        S    14:55   0:00 [irq/161-iwlwifi]
+root         447  0.0  0.0      0     0 ?        S    14:55   0:00 [irq/162-iwlwifi]
+root         448  0.0  0.0      0     0 ?        S    14:55   0:00 [irq/163-iwlwifi]
+root         485  0.0  0.0      0     0 ?        I<   14:55   0:00 [led_workqueue]
+root         548  0.0  0.0      0     0 ?        S    14:55   0:00 [card0-crtc0]
+root         549  0.0  0.0      0     0 ?        S    14:55   0:00 [card0-crtc1]
+root         550  0.0  0.0      0     0 ?        S    14:55   0:00 [card0-crtc2]
+root         551  0.0  0.0      0     0 ?        S    14:55   0:00 [card0-crtc3]
+systemd+     573  0.1  0.0  14824  6120 ?        Ss   14:55   0:08 /lib/systemd/systemd-oomd
+systemd+     574  0.0  0.0  26452 14792 ?        Ss   14:55   0:01 /lib/systemd/systemd-resolved
+systemd+     575  0.0  0.0  89376  6520 ?        Ssl  14:55   0:00 /lib/systemd/systemd-timesyncd
+root        1009  0.0  0.0 251964  8504 ?        Ssl  14:55   0:00 /usr/libexec/accounts-daemon
+root        1010  0.0  0.0   2812  1184 ?        Ss   14:55   0:00 /usr/sbin/acpid
+avahi       1012  0.0  0.0   7628  3592 ?        Ss   14:55   0:00 avahi-daemon: running [VivoBook.local]
+root        1013  0.0  0.0  10632  5076 ?        Ss   14:55   0:00 /usr/lib/bluetooth/bluetoothd
+root        1014  0.0  0.0  20680  3148 ?        Ss   14:55   0:00 /usr/sbin/cron -f -P
+message+    1016  0.0  0.0  11236  6976 ?        Ss   14:55   0:01 @dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+root        1017  0.0  0.1 272308 19232 ?        Ssl  14:55   0:01 /usr/sbin/NetworkManager --no-daemon
+root        1024  0.0  0.0  82840  3704 ?        Ssl  14:55   0:00 /usr/sbin/irqbalance --foreground
+root        1025  0.0  0.1  52216 20864 ?        Ss   14:55   0:00 /usr/bin/python3 /usr/bin/networkd-dispatcher --run-startup-triggers
+root        1026  0.0  0.0 236956 10344 ?        Ssl  14:55   0:00 /usr/libexec/polkitd --no-debug
+root        1027  0.0  0.0 251280  7536 ?        Ssl  14:55   0:00 /usr/libexec/power-profiles-daemon
+syslog      1030  0.0  0.0 222424  6300 ?        Ssl  14:55   0:00 /usr/sbin/rsyslogd -n -iNONE
+root        1035  0.0  0.2 1465980 42124 ?       Ssl  14:55   0:03 /usr/lib/snapd/snapd
+root        1037  0.0  0.0 247560  6668 ?        Ssl  14:55   0:00 /usr/libexec/switcheroo-control
+root        1041  0.0  0.0  48296  8144 ?        Ss   14:55   0:00 /lib/systemd/systemd-logind
+root        1042  0.0  0.0 287376  9612 ?        Ssl  14:55   0:01 /usr/sbin/thermald --systemd --dbus-enable --adaptive
+root        1045  0.0  0.0 393544 13728 ?        Ssl  14:55   0:00 /usr/libexec/udisks2/udisksd
+root        1046  0.0  0.0  17816 11644 ?        Ss   14:55   0:00 /sbin/wpa_supplicant -u -s -O /run/wpa_supplicant
+avahi       1049  0.0  0.0   7440   340 ?        S    14:55   0:00 avahi-daemon: chroot helper
+root        1110  0.0  0.0 243288 11964 ?        Ssl  14:55   0:00 /usr/sbin/ModemManager
+root        1118  0.0  0.0  85196 15136 ?        Ss   14:55   0:00 /usr/sbin/cupsd -l
+root        1121  0.0  0.1 129336 23296 ?        Ssl  14:55   0:00 /usr/bin/python3 /usr/share/unattended-upgrades/unattended-upgrade-shutdown --wait-for-signal
+root        1152  0.0  0.0 252520  9492 ?        Ssl  14:55   0:00 /usr/sbin/gdm3
+colord      1164  0.0  0.0 256616 13392 ?        Ssl  14:55   0:00 /usr/libexec/colord
+rtkit       1201  0.0  0.0 154000  1532 ?        SNsl 14:55   0:00 /usr/libexec/rtkit-daemon
+root        1246  0.0  0.0 253900  9496 ?        Ssl  14:55   0:00 /usr/libexec/upowerd
+root        1425  0.0  0.1 384260 28412 ?        Ssl  14:55   0:02 /usr/libexec/packagekitd
+root        1723  0.0  0.0 172684 11024 ?        Ssl  14:55   0:00 /usr/sbin/cups-browsed
+kernoops    1728  0.0  0.0  13080   456 ?        Ss   14:55   0:00 /usr/sbin/kerneloops --test
+kernoops    1737  0.0  0.0  13080   456 ?        Ss   14:55   0:00 /usr/sbin/kerneloops
+root        1783  0.0  0.0 181920 11492 ?        Sl   14:58   0:00 gdm-session-worker [pam/gdm-password]
+helium      1800  0.0  0.0  18180 10968 ?        Ss   14:58   0:00 /lib/systemd/systemd --user
+helium      1801  0.0  0.0 170260  4468 ?        S    14:58   0:00 (sd-pam)
+helium      1807  0.0  0.0  51040  6996 ?        S<sl 14:58   0:00 /usr/bin/pipewire
+helium      1808  0.0  0.0  34800  6628 ?        Ssl  14:58   0:00 /usr/bin/pipewire-media-session
+helium      1809  1.0  0.2 2558420 32288 ?       S<sl 14:58   1:20 /usr/bin/pulseaudio --daemonize=no --log-target=journal
+helium      1819  0.0  0.0  10344  6492 ?        Ss   14:58   0:02 /usr/bin/dbus-daemon --session --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+helium      1826  0.0  0.0 251832  8216 ?        Ssl  14:58   0:00 /usr/libexec/gvfsd
+helium      1830  0.0  0.0 252244  7984 ?        SLl  14:58   0:00 /usr/bin/gnome-keyring-daemon --daemonize --login
+helium      1843  0.0  0.0 380884  6748 ?        Sl   14:58   0:00 /usr/libexec/gvfsd-fuse /run/user/1000/gvfs -f
+helium      1850  0.0  0.0 548084  7640 ?        Ssl  14:58   0:00 /usr/libexec/xdg-document-portal
+helium      1855  0.0  0.0 247324  6208 ?        Ssl  14:58   0:00 /usr/libexec/xdg-permission-store
+root        1861  0.0  0.0   2792  1016 ?        Ss   14:58   0:00 fusermount3 -o rw,nosuid,nodev,fsname=portal,auto_unmount,subtype=portal -- /run/user/1000/doc
+helium      1875  0.0  0.1 645012 28688 ?        SNsl 14:58   0:00 /usr/libexec/tracker-miner-fs-3
+root        1883  0.0  0.0      0     0 ?        S<   14:58   0:00 [krfcommd]
+helium      1888  0.0  0.0 327436 10044 ?        Ssl  14:58   0:00 /usr/libexec/gvfs-udisks2-volume-monitor
+helium      1893  0.0  0.0 247640  6904 ?        Ssl  14:58   0:00 /usr/libexec/gvfs-mtp-volume-monitor
+helium      1897  0.0  0.0 248724  7212 ?        Ssl  14:58   0:00 /usr/libexec/gvfs-gphoto2-volume-monitor
+helium      1901  0.0  0.0 248436  7228 ?        Ssl  14:58   0:00 /usr/libexec/gvfs-goa-volume-monitor
+helium      1905  0.0  0.5 723972 82952 ?        SLl  14:58   0:00 /usr/libexec/goa-daemon
+helium      1912  0.0  0.0 349580 15200 ?        Sl   14:58   0:00 /usr/libexec/goa-identity-service
+helium      1917  0.0  0.0 326392  8264 ?        Ssl  14:58   0:00 /usr/libexec/gvfs-afc-volume-monitor
+helium      1925  0.0  0.0 173612  6200 tty2     Ssl+ 14:58   0:00 /usr/libexec/gdm-x-session --run-script env GNOME_SHELL_SESSION_MODE=ubuntu /usr/bin/gnome-session --session=ubuntu
+helium      1927  1.7  0.7 1503764 126344 tty2   Sl+  14:58   2:15 /usr/lib/xorg/Xorg vt2 -displayfd 3 -auth /run/user/1000/gdm/Xauthority -nolisten tcp -background none -noreset -keeptty -novtswitch -verbose 3
+helium      1966  0.0  0.0 234212 15876 tty2     Sl+  14:58   0:00 /usr/libexec/gnome-session-binary --session=ubuntu
+helium      2072  0.0  0.0 309968  7844 ?        Ssl  14:58   0:00 /usr/libexec/at-spi-bus-launcher
+helium      2078  0.0  0.0   8560  4544 ?        S    14:58   0:00 /usr/bin/dbus-daemon --config-file=/usr/share/defaults/at-spi2/accessibility.conf --nofork --print-address 11 --address=unix:path=/run/user/1000/at-spi/bus_1
+helium      2093  0.0  0.0 103088  5116 ?        Ssl  14:58   0:00 /usr/libexec/gnome-session-ctl --monitor
+helium      2105  0.0  0.1 670064 18048 ?        Ssl  14:58   0:00 /usr/libexec/gnome-session-binary --systemd-service --session=ubuntu
+helium      2124  2.6  1.8 5498252 293164 ?      Ssl  14:58   3:21 /usr/bin/gnome-shell
+helium      2164  0.0  0.1 796688 22344 ?        Sl   14:58   0:00 /usr/libexec/gnome-shell-calendar-server
+helium      2172  0.0  0.2 1087576 38840 ?       Ssl  14:58   0:00 /usr/libexec/evolution-source-registry
+helium      2179  0.0  0.0 157828  6560 ?        Ssl  14:58   0:00 /usr/libexec/dconf-service
+helium      2182  0.0  0.0 174756  7208 ?        Ssl  14:58   0:00 /usr/libexec/gvfsd-metadata
+helium      2191  0.0  0.3 1420764 54040 ?       Ssl  14:58   0:00 /usr/libexec/evolution-calendar-factory
+helium      2203  0.0  0.1 683608 29120 ?        Ssl  14:58   0:00 /usr/libexec/evolution-addressbook-factory
+helium      2227  0.0  0.0 326172  8812 ?        Sl   14:58   0:00 /usr/libexec/gvfsd-trash --spawner :1.2 /org/gtk/gvfs/exec_spaw/0
+helium      2242  0.0  0.2 2878456 37416 ?       Sl   14:58   0:00 /usr/bin/gjs /usr/share/gnome-shell/org.gnome.Shell.Notifications
+helium      2244  0.0  0.0 162748  8176 ?        Sl   14:58   0:01 /usr/libexec/at-spi2-registryd --use-gnome-session
+helium      2261  0.0  0.0 635304 14552 ?        Ssl  14:58   0:01 /usr/libexec/xdg-desktop-portal
+helium      2264  0.0  0.0   2888   964 ?        Ss   14:58   0:00 sh -c /usr/bin/ibus-daemon --panel disable $([ "$XDG_SESSION_TYPE" = "x11" ] && echo "--xim")
+helium      2265  0.0  0.0 321800  6796 ?        Ssl  14:58   0:00 /usr/libexec/gsd-a11y-settings
+helium      2267  0.0  0.0 326036 11844 ?        Sl   14:58   0:00 /usr/bin/ibus-daemon --panel disable --xim
+helium      2268  0.0  0.1 622456 28868 ?        Ssl  14:58   0:00 /usr/libexec/gsd-color
+helium      2269  0.0  0.1 386836 16288 ?        Ssl  14:58   0:00 /usr/libexec/gsd-datetime
+helium      2271  0.0  0.0 323764  7860 ?        Ssl  14:58   0:00 /usr/libexec/gsd-housekeeping
+helium      2273  0.0  0.1 352816 24684 ?        Ssl  14:58   0:00 /usr/libexec/gsd-keyboard
+helium      2275  0.0  0.1 876580 30552 ?        Ssl  14:58   0:00 /usr/libexec/gsd-media-keys
+helium      2278  0.0  0.1 727864 29516 ?        Ssl  14:58   0:00 /usr/libexec/gsd-power
+helium      2279  0.0  0.0 261060 11540 ?        Ssl  14:58   0:00 /usr/libexec/gsd-print-notifications
+helium      2280  0.0  0.0 469036  6672 ?        Ssl  14:58   0:00 /usr/libexec/gsd-rfkill
+helium      2281  0.0  0.0 247468  5208 ?        Ssl  14:58   0:00 /usr/libexec/gsd-screensaver-proxy
+helium      2283  0.0  0.0 477328 11080 ?        Ssl  14:58   0:00 /usr/libexec/gsd-sharing
+helium      2285  0.0  0.0 323684  8212 ?        Ssl  14:58   0:00 /usr/libexec/gsd-smartcard
+helium      2287  0.0  0.0 330720  9272 ?        Ssl  14:58   0:00 /usr/libexec/gsd-sound
+helium      2289  0.0  0.1 353004 25292 ?        Ssl  14:58   0:00 /usr/libexec/gsd-wacom
+helium      2290  0.0  0.1 354900 27440 ?        Ssl  14:58   0:00 /usr/libexec/gsd-xsettings
+helium      2325  0.0  0.4 1331852 74212 ?       Ssl  14:58   0:00 /usr/libexec/xdg-desktop-portal-gnome
+helium      2334  0.0  0.0 325560  7492 ?        Sl   14:58   0:00 /usr/lib/x86_64-linux-gnu/indicator-messages/indicator-messages-service
+helium      2351  0.0  0.0 248656  7260 ?        Sl   14:58   0:00 /usr/libexec/ibus-dconf
+helium      2352  0.0  0.4 890808 69472 ?        Sl   14:58   0:00 /usr/libexec/evolution-data-server/evolution-alarm-notify
+helium      2359  0.0  0.1 283964 29076 ?        Sl   14:58   0:00 /usr/libexec/ibus-extension-gtk3
+helium      2361  0.0  0.0 232268  7212 ?        Sl   14:58   0:00 /usr/libexec/gsd-disk-utility-notify
+helium      2369  0.0  0.1 205412 24892 ?        Sl   14:58   0:00 /usr/libexec/ibus-x11 --kill-daemon
+helium      2370  0.0  0.0 353536 13888 ?        Sl   14:58   0:00 /usr/libexec/gsd-printer
+helium      2397  0.0  0.0 248584  7804 ?        Sl   14:58   0:00 /usr/libexec/ibus-portal
+helium      2409  0.0  0.9 1060200 147648 ?      Sl   14:58   0:03 /snap/snap-store/638/usr/bin/snap-store --gapplication-service
+helium      2511  0.0  0.1 2950636 27736 ?       Sl   14:58   0:00 /usr/bin/gjs /usr/share/gnome-shell/org.gnome.ScreenSaver
+helium      2536  0.0  0.0 174664  7328 ?        Sl   14:58   0:00 /usr/libexec/ibus-engine-simple
+helium      2628  0.0  0.1 353588 26468 ?        Ssl  14:58   0:00 /usr/libexec/xdg-desktop-portal-gtk
+helium      2707  0.0  0.0  76120 11960 ?        Ss   14:58   0:00 /snap/snapd-desktop-integration/49/usr/bin/snapd-desktop-integration
+helium      2781  0.0  0.1 311644 24424 ?        Sl   14:58   0:00 /snap/snapd-desktop-integration/49/usr/bin/snapd-desktop-integration
+helium      2786  0.0  0.3 3133420 62188 ?       Sl   14:58   0:06 gjs /usr/share/gnome-shell/extensions/ding@rastersoft.com/ding.js -E -P /usr/share/gnome-shell/extensions/ding@rastersoft.com -M 0 -D 0:0:1920:1080:1:27:64:0:0:0
+helium      3680  0.3  1.3 5794360 221884 ?      SLl  14:58   0:29 ./jetbrains-toolbox --minimize
+helium      3685  0.0  0.0  12392  2380 ?        Ssl  14:58   0:00 /home/helium/.local/share/JetBrains/Toolbox/bin/jetbrains-toolbox --minimize
+helium      3770  1.8  2.7 34362988 438916 ?     SLl  14:58   2:18 /opt/google/chrome/chrome
+helium      3775  0.0  0.0  19696  1004 ?        S    14:58   0:00 cat
+helium      3776  0.0  0.0  19696  1056 ?        S    14:58   0:00 cat
+helium      3779  0.0  0.0 33576924 3188 ?       Sl   14:58   0:00 /opt/google/chrome/chrome_crashpad_handler --monitor-self --monitor-self-annotation=ptype=crashpad-handler --database=/home/helium/.config/google-chrome/Crash Reports --metrics-dir=/home/helium/.config/google-chrome --url=https://clients2.google.com/cr/report --annotation=channel= --annotation=lsb-release=Ubuntu 22.04.1 LTS --annotation=plat=Linux --annotation=prod=Chrome_Linux --annotation=ver=108.0.5359.124 --initial-client-fd=5 --shared-client-connection
+helium      3781  0.0  0.0 33567688 1656 ?       Sl   14:58   0:00 /opt/google/chrome/chrome_crashpad_handler --no-periodic-tasks --monitor-self-annotation=ptype=crashpad-handler --database=/home/helium/.config/google-chrome/Crash Reports --url=https://clients2.google.com/cr/report --annotation=channel= --annotation=lsb-release=Ubuntu 22.04.1 LTS --annotation=plat=Linux --annotation=prod=Chrome_Linux --annotation=ver=108.0.5359.124 --initial-client-fd=4 --shared-client-connection
+helium      3787  0.0  0.3 33864272 59444 ?      S    14:58   0:00 /opt/google/chrome/chrome --type=zygote --no-zygote-sandbox --crashpad-handler-pid=3779 --enable-crash-reporter=9cfe26fc-8beb-4b07-ba14-945f54dbe8f8, --change-stack-guard-on-fork=enable
+helium      3788  0.0  0.3 33864260 60424 ?      S    14:58   0:00 /opt/google/chrome/chrome --type=zygote --crashpad-handler-pid=3779 --enable-crash-reporter=9cfe26fc-8beb-4b07-ba14-945f54dbe8f8, --change-stack-guard-on-fork=enable
+helium      3789  0.0  0.0 33567888 4980 ?       S    14:58   0:00 /opt/google/chrome/nacl_helper
+helium      3792  0.0  0.1 33864284 16152 ?      S    14:58   0:00 /opt/google/chrome/chrome --type=zygote --crashpad-handler-pid=3779 --enable-crash-reporter=9cfe26fc-8beb-4b07-ba14-945f54dbe8f8, --change-stack-guard-on-fork=enable
+helium      3818  1.4  1.2 34395272 194076 ?     Sl   14:58   1:48 /opt/google/chrome/chrome --type=gpu-process --crashpad-handler-pid=3779 --enable-crash-reporter=9cfe26fc-8beb-4b07-ba14-945f54dbe8f8, --change-stack-guard-on-fork=enable --gpu-preferences=WAAAAAAAAAAgAAAIAAAAAAAAAAAAAAAAAABgAAEAAAA4AAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAIAAAAAAAAAABAAAAAAAAAAgAAAAAAAAACAAAAAAAAAAIAAAAAAAAAA== --shared-files --field-trial-handle=0,i,2371336294251832801,16728536096986045136,131072
+helium      3825  0.4  0.7 33926124 128244 ?     Sl   14:58   0:30 /opt/google/chrome/chrome --type=utility --utility-sub-type=network.mojom.NetworkService --lang=en-US --service-sandbox-type=none --crashpad-handler-pid=3779 --enable-crash-reporter=9cfe26fc-8beb-4b07-ba14-945f54dbe8f8, --change-stack-guard-on-fork=enable --shared-files=v8_context_snapshot_data:100 --field-trial-handle=0,i,2371336294251832801,16728536096986045136,131072
+helium      3846  0.0  0.3 33913860 53472 ?      Sl   14:58   0:01 /opt/google/chrome/chrome --type=utility --utility-sub-type=storage.mojom.StorageService --lang=en-US --service-sandbox-type=utility --crashpad-handler-pid=3779 --enable-crash-reporter=9cfe26fc-8beb-4b07-ba14-945f54dbe8f8, --change-stack-guard-on-fork=enable --shared-files=v8_context_snapshot_data:100 --field-trial-handle=0,i,2371336294251832801,16728536096986045136,131072
+helium      3904  0.1  1.2 1184824780 193192 ?   Sl   14:58   0:14 /opt/google/chrome/chrome --type=renderer --crashpad-handler-pid=3779 --enable-crash-reporter=9cfe26fc-8beb-4b07-ba14-945f54dbe8f8, --extension-process --change-stack-guard-on-fork=enable --lang=en-US --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=5 --time-ticks-at-unix-epoch=-1672750533161386 --launch-time-ticks=196332324 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=0,i,2371336294251832801,16728536096986045136,131072
+helium      4147  0.0  0.1 427884 26696 ?        Sl   14:59   0:00 update-notifier
+helium      4189  0.3  1.0 38315608 163204 ?     Sl   15:00   0:29 /snap/discord/145/usr/share/discord/Discord --use-tray-icon --no-sandbox --disable-seccomp-filter-sandbox
+helium      4285  0.0  0.2 214164 47956 ?        S    15:00   0:00 /snap/discord/145/usr/share/discord/Discord --type=zygote --no-zygote-sandbox --disable-seccomp-filter-sandbox --no-sandbox
+helium      4286  0.0  0.2 214164 48044 ?        S    15:00   0:00 /snap/discord/145/usr/share/discord/Discord --type=zygote --disable-seccomp-filter-sandbox --no-sandbox
+helium      4313  1.6  0.7 685548 128536 ?       Sl   15:00   2:03 /snap/discord/145/usr/share/discord/Discord --type=gpu-process --field-trial-handle=14641945547559964028,5577471553159826418,131072 --disable-features=CookiesWithoutSameSiteMustBeSecure,HardwareMediaKeyHandling,MediaSessionService,SameSiteByDefaultCookies,SpareRendererForSitePerProcess,WinRetrieveSuggestionsOnlyOnDemand --disable-seccomp-filter-sandbox --no-sandbox --enable-crash-reporter=0684c35c-9afb-4643-a85b-345bb8d83554,no_channel --global-crash-keys=0684c35c-9afb-4643-a85b-345bb8d83554,no_channel,_companyName=Discord Inc.,_productName=Discord,_version=0.0.21 --gpu-preferences=UAAAAAAAAAAgAAAQAAAAAAAAAAAAAAAAAABgAAAAAAAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAgAAAAAAAAACAAAAAAAAAA= --shared-files
+helium      4322  0.0  0.4 292704 71360 ?        Sl   15:00   0:01 /snap/discord/145/usr/share/discord/Discord --type=utility --utility-sub-type=network.mojom.NetworkService --field-trial-handle=14641945547559964028,5577471553159826418,131072 --disable-features=CookiesWithoutSameSiteMustBeSecure,HardwareMediaKeyHandling,MediaSessionService,SameSiteByDefaultCookies,SpareRendererForSitePerProcess,WinRetrieveSuggestionsOnlyOnDemand --lang=en-US --service-sandbox-type=none --no-sandbox --enable-crash-reporter=0684c35c-9afb-4643-a85b-345bb8d83554,no_channel --global-crash-keys=0684c35c-9afb-4643-a85b-345bb8d83554,no_channel,_companyName=Discord Inc.,_productName=Discord,_version=0.0.21 --shared-files=v8_context_snapshot_data:100
+helium      4368  4.7  2.1 55478136 342556 ?     Sl   15:00   5:51 /snap/discord/145/usr/share/discord/Discord --type=renderer --disable-seccomp-filter-sandbox --no-sandbox --autoplay-policy=no-user-gesture-required --field-trial-handle=14641945547559964028,5577471553159826418,131072 --disable-features=CookiesWithoutSameSiteMustBeSecure,HardwareMediaKeyHandling,MediaSessionService,SameSiteByDefaultCookies,SpareRendererForSitePerProcess,WinRetrieveSuggestionsOnlyOnDemand --lang=en-US --enable-crash-reporter=0684c35c-9afb-4643-a85b-345bb8d83554,no_channel --global-crash-keys=0684c35c-9afb-4643-a85b-345bb8d83554,no_channel,_companyName=Discord Inc.,_productName=Discord,_version=0.0.21 --app-path=/snap/discord/145/usr/share/discord/resources/app.asar --no-sandbox --no-zygote --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=7 --no-v8-untrusted-code-mitigations --shared-files=v8_context_snapshot_data:100 --enable-node-leakage-in-renderers
+helium      4400  0.0  0.3 537876 56112 ?        Sl   15:00   0:00 /snap/discord/145/usr/share/discord/Discord --type=utility --utility-sub-type=audio.mojom.AudioService --field-trial-handle=14641945547559964028,5577471553159826418,131072 --disable-features=CookiesWithoutSameSiteMustBeSecure,HardwareMediaKeyHandling,MediaSessionService,SameSiteByDefaultCookies,SpareRendererForSitePerProcess,WinRetrieveSuggestionsOnlyOnDemand --lang=en-US --service-sandbox-type=none --no-sandbox --enable-crash-reporter=0684c35c-9afb-4643-a85b-345bb8d83554,no_channel --global-crash-keys=0684c35c-9afb-4643-a85b-345bb8d83554,no_channel,_companyName=Discord Inc.,_productName=Discord,_version=0.0.21 --shared-files=v8_context_snapshot_data:100
+helium      5931  0.0  0.4 34171848 77592 ?      Sl   15:07   0:01 /opt/google/chrome/chrome --type=utility --utility-sub-type=audio.mojom.AudioService --lang=en-US --service-sandbox-type=none --crashpad-handler-pid=3779 --enable-crash-reporter=9cfe26fc-8beb-4b07-ba14-945f54dbe8f8, --change-stack-guard-on-fork=enable --shared-files=v8_context_snapshot_data:100 --field-trial-handle=0,i,2371336294251832801,16728536096986045136,131072
+helium      6097  0.0  1.0 1184836992 161092 ?   Sl   15:09   0:02 /opt/google/chrome/chrome --type=renderer --crashpad-handler-pid=3779 --enable-crash-reporter=9cfe26fc-8beb-4b07-ba14-945f54dbe8f8, --change-stack-guard-on-fork=enable --lang=en-US --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=49 --time-ticks-at-unix-epoch=-1672750533161386 --launch-time-ticks=821355071 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=0,i,2371336294251832801,16728536096986045136,131072
+helium      6165  0.0  0.3 753516 53512 ?        Ssl  15:10   0:01 /usr/libexec/gnome-terminal-server
+helium      6193  0.0  0.0  24544  6796 pts/0    Ss+  15:10   0:00 zsh
+helium      7359  0.1  1.1 1185902892 191112 ?   Sl   15:37   0:05 /opt/google/chrome/chrome --type=renderer --crashpad-handler-pid=3779 --enable-crash-reporter=9cfe26fc-8beb-4b07-ba14-945f54dbe8f8, --change-stack-guard-on-fork=enable --lang=en-US --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=95 --time-ticks-at-unix-epoch=-1672750533161386 --launch-time-ticks=2520859922 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=0,i,2371336294251832801,16728536096986045136,131072
+helium      7387  0.0  0.9 1185883456 160232 ?   Sl   15:37   0:00 /opt/google/chrome/chrome --type=renderer --crashpad-handler-pid=3779 --enable-crash-reporter=9cfe26fc-8beb-4b07-ba14-945f54dbe8f8, --change-stack-guard-on-fork=enable --lang=en-US --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=96 --time-ticks-at-unix-epoch=-1672750533161386 --launch-time-ticks=2525866603 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=0,i,2371336294251832801,16728536096986045136,131072
+helium      7449  0.0  0.1  47112 19568 ?        S    15:38   0:00 /usr/bin/python3 /usr/bin/gnome-terminal --wait
+helium      7452  0.0  0.1 318976 28260 ?        Sl   15:38   0:00 /usr/bin/gnome-terminal.real --wait
+helium      7456  0.0  0.0  27920  7856 pts/1    Ss+  15:38   0:00 zsh
+helium      7875  0.8  1.0 38624668 168764 ?     SLsl 15:38   0:44 /snap/code/116/usr/share/code/code --no-sandbox --enable-crashpad midterm_test2_prep
+helium      7890  0.0  0.3 33981340 50640 ?      S    15:38   0:00 /snap/code/116/usr/share/code/code --type=zygote --no-zygote-sandbox --no-sandbox --enable-crashpad --enable-crashpad
+helium      7891  0.0  0.2 33981328 48176 ?      S    15:38   0:00 /snap/code/116/usr/share/code/code --type=zygote --no-sandbox --enable-crashpad --enable-crashpad
+helium      7904  0.0  0.0 33585756 2340 ?       Sl   15:38   0:00 /snap/code/116/usr/share/code/chrome_crashpad_handler --monitor-self-annotation=ptype=crashpad-handler --no-rate-limit --database=/home/helium/.config/Code/Crashpad --url=appcenter://code?aid=fba07a4d-84bd-4fc8-a125-9640fc8ce171&uid=77fa8925-7552-4e0e-bc10-00ba10a7c2e0&iid=77fa8925-7552-4e0e-bc10-00ba10a7c2e0&sid=77fa8925-7552-4e0e-bc10-00ba10a7c2e0 --annotation=IsOfficialBuild=1 --annotation=_companyName=Microsoft --annotation=_productName=VSCode --annotation=_version=1.74.2 --annotation=exe=/snap/code/116/usr/share/code/code --no-sandbox --enable-crashpad midterm_test2_prep --annotation=lsb-release=Ubuntu 22.04.1 LTS --annotation=plat=Linux --annotation=prod=Electron --annotation=ver=19.1.8 --initial-client-fd=44 --shared-client-connection
+helium      7945  0.0  0.4 34043040 67364 ?      Sl   15:38   0:00 /snap/code/116/usr/share/code/code --type=utility --utility-sub-type=network.mojom.NetworkService --lang=en-US --service-sandbox-type=none --no-sandbox --enable-crashpad --crashpad-handler-pid=7904 --enable-crash-reporter=65ca7105-fd30-4b9f-996e-47f41edf0a6f,no_channel --user-data-dir=/home/helium/.config/Code --standard-schemes=vscode-webview,vscode-file --secure-schemes=vscode-webview,vscode-file --bypasscsp-schemes --cors-schemes=vscode-webview,vscode-file --fetch-schemes=vscode-webview,vscode-file --service-worker-schemes=vscode-webview --streaming-schemes --shared-files=v8_context_snapshot_data:100 --field-trial-handle=0,i,13528503755704083824,693730312305363237,131072 --disable-features=CalculateNativeWinOcclusion,SpareRendererForSitePerProcess --enable-crashpad
+helium      7969  0.8  1.6 53194260 258676 ?     Sl   15:38   0:43 /snap/code/116/usr/share/code/code --type=renderer --enable-crashpad --crashpad-handler-pid=7904 --enable-crash-reporter=65ca7105-fd30-4b9f-996e-47f41edf0a6f,no_channel --user-data-dir=/home/helium/.config/Code --standard-schemes=vscode-webview,vscode-file --secure-schemes=vscode-webview,vscode-file --bypasscsp-schemes --cors-schemes=vscode-webview,vscode-file --fetch-schemes=vscode-webview,vscode-file --service-worker-schemes=vscode-webview --streaming-schemes --app-path=/snap/code/116/usr/share/code/resources/app --no-sandbox --no-zygote --enable-blink-features=HighlightAPI --no-sandbox --lang=en-US --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=8 --launch-time-ticks=2604931398 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=0,i,13528503755704083824,693730312305363237,131072 --disable-features=CalculateNativeWinOcclusion,SpareRendererForSitePerProcess --vscode-window-config=vscode:48efb6d9-fd78-42b0-bb84-ebd677504444 --enable-crashpad
+helium      8010  4.9  1.0 34425456 161364 ?     Sl   15:38   4:11 /snap/code/116/usr/share/code/code --type=gpu-process --no-sandbox --enable-crashpad --crashpad-handler-pid=7904 --enable-crash-reporter=65ca7105-fd30-4b9f-996e-47f41edf0a6f,no_channel --user-data-dir=/home/helium/.config/Code --gpu-preferences=WAAAAAAAAAAgAAAIAAAAAAAAAAAAAAAAAABgAAAAAAA4AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAIAAAAAAAAAABAAAAAAAAAAgAAAAAAAAACAAAAAAAAAAIAAAAAAAAAA== --use-gl=angle --use-angle=swiftshader-webgl --shared-files --field-trial-handle=0,i,13528503755704083824,693730312305363237,131072 --disable-features=CalculateNativeWinOcclusion,SpareRendererForSitePerProcess
+helium      8052  0.2  0.9 46889320 152776 ?     Sl   15:38   0:15 /snap/code/116/usr/share/code/code --type=renderer --enable-crashpad --crashpad-handler-pid=7904 --enable-crash-reporter=65ca7105-fd30-4b9f-996e-47f41edf0a6f,no_channel --user-data-dir=/home/helium/.config/Code --standard-schemes=vscode-webview,vscode-file --secure-schemes=vscode-webview,vscode-file --bypasscsp-schemes --cors-schemes=vscode-webview,vscode-file --fetch-schemes=vscode-webview,vscode-file --service-worker-schemes=vscode-webview --streaming-schemes --app-path=/snap/code/116/usr/share/code/resources/app --no-sandbox --no-zygote --node-integration-in-worker --no-sandbox --disable-gpu-compositing --lang=en-US --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=13 --launch-time-ticks=2605739159 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=0,i,13528503755704083824,693730312305363237,131072 --disable-features=CalculateNativeWinOcclusion,SpareRendererForSitePerProcess --vscode-window-config=vscode:8674218b-289c-4ed7-bc14-71b9394eb652 --vscode-window-kind=shared-process --enable-crashpad
+helium      8069  0.1  1.0 48865388 167084 ?     Sl   15:38   0:06 /snap/code/116/usr/share/code/code --ms-enable-electron-run-as-node --inspect-port=0 /snap/code/116/usr/share/code/resources/app/out/bootstrap-fork --type=extensionHost --skipWorkspaceStorageLock
+helium      8077  0.1  0.5 38395984 88544 ?      Sl   15:38   0:09 /snap/code/116/usr/share/code/code --ms-enable-electron-run-as-node /snap/code/116/usr/share/code/resources/app/out/bootstrap-fork --type=ptyHost --logsPath /home/helium/.config/Code/logs/20230103T153858
+helium      8113  0.0  0.5 38383448 90276 ?      Sl   15:38   0:01 /snap/code/116/usr/share/code/code --ms-enable-electron-run-as-node /snap/code/116/usr/share/code/resources/app/out/bootstrap-fork --type=fileWatcher
+helium      8165  0.0  0.4 38333760 76288 ?      Sl   15:39   0:00 /snap/code/116/usr/share/code/code --ms-enable-electron-run-as-node /snap/code/116/usr/share/code/resources/app/extensions/markdown-language-features/server/dist/node/main --node-ipc --clientProcessId=8069
+helium      8193  0.0  0.0  24748  7036 pts/2    Ss+  15:39   0:00 /usr/bin/zsh -i
+helium      8216  0.0  0.4 38333760 76772 ?      Sl   15:39   0:00 /snap/code/116/usr/share/code/code --ms-enable-electron-run-as-node /snap/code/116/usr/share/code/resources/app/extensions/json-language-features/server/dist/node/jsonServerMain --node-ipc --clientProcessId=8069
+helium      8227  0.0  0.6 38337864 99624 ?      Sl   15:39   0:01 /snap/code/116/usr/share/code/code --ms-enable-electron-run-as-node /home/helium/.vscode/extensions/ms-python.vscode-pylance-2022.12.20/dist/server.bundle.js --cancellationReceive=file:25479fa2fec964665d216279cc18dd765a537791ce --node-ipc --clientProcessId=8069
+helium      9201  2.9  1.8 3993716 296388 ?      Sl   15:48   2:12 /snap/spotify/60/usr/share/spotify/spotify
+helium      9289  0.0  0.4 650908 77364 ?        S    15:48   0:00 /snap/spotify/60/usr/share/spotify/spotify --type=zygote --no-zygote-sandbox --no-sandbox --log-severity=disable --user-agent-product=Chrome/99.0.4844.84 Spotify/1.1.84.716 --lang=en --user-data-dir=/home/helium/snap/spotify/60/.config/spotify/User Data --log-file=/snap/spotify/60/usr/share/spotify/debug.log
+helium      9290  0.0  0.4 650904 77316 ?        S    15:48   0:00 /snap/spotify/60/usr/share/spotify/spotify --type=zygote --no-sandbox --log-severity=disable --user-agent-product=Chrome/99.0.4844.84 Spotify/1.1.84.716 --lang=en --user-data-dir=/home/helium/snap/spotify/60/.config/spotify/User Data --log-file=/snap/spotify/60/usr/share/spotify/debug.log
+helium      9305  0.1  0.6 1534428 107368 ?      Sl   15:48   0:06 /snap/spotify/60/usr/share/spotify/spotify --type=gpu-process --no-sandbox --log-severity=disable --user-agent-product=Chrome/99.0.4844.84 Spotify/1.1.84.716 --lang=en --user-data-dir=/home/helium/snap/spotify/60/.config/spotify/User Data --gpu-preferences=UAAAAAAAAAAgAAAIAAAAAAAAAAAAAAAAAABgAAAAAAAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAABgAAAAAAAAAGAAAAAAAAAAIAAAAAAAAAAgAAAAAAAAACAAAAAAAAAA= --log-file=/snap/spotify/60/usr/share/spotify/debug.log --shared-files --field-trial-handle=0,i,8569821714470589570,17814227585239917900,131072
+helium      9315  0.0  0.2 872432 35892 ?        Sl   15:48   0:00 /snap/spotify/60/usr/share/spotify/spotify --type=utility --utility-sub-type=storage.mojom.StorageService --lang=en-US --service-sandbox-type=utility --no-sandbox --log-severity=disable --user-agent-product=Chrome/99.0.4844.84 Spotify/1.1.84.716 --lang=en --user-data-dir=/home/helium/snap/spotify/60/.config/spotify/User Data --log-file=/snap/spotify/60/usr/share/spotify/debug.log --shared-files=v8_context_snapshot_data:100 --field-trial-handle=0,i,8569821714470589570,17814227585239917900,131072
+helium      9316  0.1  0.6 1279176 101472 ?      Sl   15:48   0:04 /snap/spotify/60/usr/share/spotify/spotify --type=utility --utility-sub-type=network.mojom.NetworkService --lang=en-US --service-sandbox-type=none --no-sandbox --log-severity=disable --user-agent-product=Chrome/99.0.4844.84 Spotify/1.1.84.716 --lang=en --user-data-dir=/home/helium/snap/spotify/60/.config/spotify/User Data --log-file=/snap/spotify/60/usr/share/spotify/debug.log --shared-files=v8_context_snapshot_data:100 --field-trial-handle=0,i,8569821714470589570,17814227585239917900,131072
+helium      9349  0.9  1.2 31387888 208372 ?     Sl   15:48   0:41 /snap/spotify/60/usr/share/spotify/spotify --type=renderer --log-severity=disable --user-agent-product=Chrome/99.0.4844.84 Spotify/1.1.84.716 --disable-spell-checking --user-data-dir=/home/helium/snap/spotify/60/.config/spotify/User Data --no-sandbox --log-file=/snap/spotify/60/usr/share/spotify/debug.log --lang=en-US --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=5 --launch-time-ticks=3195317364 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=0,i,8569821714470589570,17814227585239917900,131072
+root       10533  0.0  0.0      0     0 ?        I    16:04   0:00 [kworker/3:1-events]
+root       10618  0.0  0.0      0     0 ?        I    16:07   0:00 [kworker/u16:2-events_power_efficient]
+root       10780  0.0  0.0      0     0 ?        I    16:13   0:00 [kworker/u16:0-flush-259:0]
+root       10795  0.0  0.0      0     0 ?        I    16:14   0:00 [kworker/4:1-events_freezable]
+helium     10815  0.1  1.0 1184818004 164472 ?   Sl   16:15   0:03 /opt/google/chrome/chrome --type=renderer --crashpad-handler-pid=3779 --enable-crash-reporter=9cfe26fc-8beb-4b07-ba14-945f54dbe8f8, --change-stack-guard-on-fork=enable --lang=en-US --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=163 --time-ticks-at-unix-epoch=-1672750533161386 --launch-time-ticks=4807218853 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=0,i,2371336294251832801,16728536096986045136,131072
+helium     10847  0.0  0.4 1184781740 76028 ?    Sl   16:15   0:00 /opt/google/chrome/chrome --type=renderer --crashpad-handler-pid=3779 --enable-crash-reporter=9cfe26fc-8beb-4b07-ba14-945f54dbe8f8, --change-stack-guard-on-fork=enable --lang=en-US --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=164 --time-ticks-at-unix-epoch=-1672750533161386 --launch-time-ticks=4809717271 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=0,i,2371336294251832801,16728536096986045136,131072
+helium     10933  0.0  0.0  27920  7816 pts/3    Ss+  16:16   0:00 zsh
+helium     11236 13.3  2.2 57436424 362272 ?     Rl   16:17   6:18 /snap/code/116/usr/share/code/code --type=renderer --enable-crashpad --crashpad-handler-pid=7904 --enable-crash-reporter=65ca7105-fd30-4b9f-996e-47f41edf0a6f,no_channel --user-data-dir=/home/helium/.config/Code --standard-schemes=vscode-webview,vscode-file --secure-schemes=vscode-webview,vscode-file --bypasscsp-schemes --cors-schemes=vscode-webview,vscode-file --fetch-schemes=vscode-webview,vscode-file --service-worker-schemes=vscode-webview --streaming-schemes --app-path=/snap/code/116/usr/share/code/resources/app --no-sandbox --no-zygote --enable-blink-features=HighlightAPI --no-sandbox --disable-gpu-compositing --lang=en-US --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=14 --launch-time-ticks=4904659653 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=0,i,13528503755704083824,693730312305363237,131072 --disable-features=CalculateNativeWinOcclusion,SpareRendererForSitePerProcess --vscode-window-config=vscode:60cc6be0-a248-4ff5-8baf-b4f752bf41ca --enable-crashpad
+helium     11261  1.6  1.9 69841772 308528 ?     Sl   16:17   0:46 /snap/code/116/usr/share/code/code --ms-enable-electron-run-as-node --inspect-port=0 /snap/code/116/usr/share/code/resources/app/out/bootstrap-fork --type=extensionHost --skipWorkspaceStorageLock
+helium     11262  0.0  0.4 38383448 78228 ?      Sl   16:17   0:00 /snap/code/116/usr/share/code/code --ms-enable-electron-run-as-node /snap/code/116/usr/share/code/resources/app/out/bootstrap-fork --type=fileWatcher
+helium     11392  1.2  0.5 1890756 88024 ?       Sl   16:17   0:35 /home/helium/.vscode/extensions/ms-vscode.cpptools-1.13.8-linux-x64/bin/cpptools
+helium     11469  0.0  0.4 38333760 71740 ?      Sl   16:17   0:00 /snap/code/116/usr/share/code/code --ms-enable-electron-run-as-node /home/helium/.vscode/extensions/ms-azuretools.vscode-docker-1.23.3/dist/dockerfile-language-server-nodejs/lib/server.js --node-ipc --node-ipc --clientProcessId=11261
+helium     11470  0.0  0.4 38333760 71244 ?      Sl   16:17   0:00 /snap/code/116/usr/share/code/code --ms-enable-electron-run-as-node /home/helium/.vscode/extensions/ms-azuretools.vscode-docker-1.23.3/dist/compose-language-service/lib/server.js --node-ipc --node-ipc --clientProcessId=11261
+helium     12463  0.0  0.0  27672  7776 pts/4    Ss   16:20   0:00 /usr/bin/zsh -i
+helium     12599  0.3  0.1 5246048 24288 ?       Sl   16:21   0:08 /home/helium/.vscode/extensions/ms-vscode.cpptools-1.13.8-linux-x64/bin/cpptools-srv 11392 {2100639F-3F46-4CA4-97C7-D8E2309ED1C2}
+root       12986  0.0  0.0      0     0 ?        I    16:22   0:00 [kworker/7:1-events]
+helium     13325  0.1  0.9 1184819192 152660 ?   Sl   16:26   0:02 /opt/google/chrome/chrome --type=renderer --crashpad-handler-pid=3779 --enable-crash-reporter=9cfe26fc-8beb-4b07-ba14-945f54dbe8f8, --change-stack-guard-on-fork=enable --lang=en-US --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=181 --time-ticks-at-unix-epoch=-1672750533161386 --launch-time-ticks=5440445478 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=0,i,2371336294251832801,16728536096986045136,131072
+helium     13348  0.1  0.9 1184818712 155784 ?   Sl   16:26   0:04 /opt/google/chrome/chrome --type=renderer --crashpad-handler-pid=3779 --enable-crash-reporter=9cfe26fc-8beb-4b07-ba14-945f54dbe8f8, --change-stack-guard-on-fork=enable --lang=en-US --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=182 --time-ticks-at-unix-epoch=-1672750533161386 --launch-time-ticks=5467880986 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=0,i,2371336294251832801,16728536096986045136,131072
+helium     13364  0.0  0.6 1184806476 97440 ?    Sl   16:26   0:00 /opt/google/chrome/chrome --type=renderer --crashpad-handler-pid=3779 --enable-crash-reporter=9cfe26fc-8beb-4b07-ba14-945f54dbe8f8, --change-stack-guard-on-fork=enable --lang=en-US --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=183 --time-ticks-at-unix-epoch=-1672750533161386 --launch-time-ticks=5468486394 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=0,i,2371336294251832801,16728536096986045136,131072
+helium     13387  0.0  0.7 1184806556 122684 ?   Sl   16:26   0:01 /opt/google/chrome/chrome --type=renderer --crashpad-handler-pid=3779 --enable-crash-reporter=9cfe26fc-8beb-4b07-ba14-945f54dbe8f8, --change-stack-guard-on-fork=enable --lang=en-US --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=184 --time-ticks-at-unix-epoch=-1672750533161386 --launch-time-ticks=5468627394 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=0,i,2371336294251832801,16728536096986045136,131072
+helium     13406  0.0  0.6 1184814688 108792 ?   Sl   16:26   0:00 /opt/google/chrome/chrome --type=renderer --crashpad-handler-pid=3779 --enable-crash-reporter=9cfe26fc-8beb-4b07-ba14-945f54dbe8f8, --change-stack-guard-on-fork=enable --lang=en-US --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=185 --time-ticks-at-unix-epoch=-1672750533161386 --launch-time-ticks=5469501204 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=0,i,2371336294251832801,16728536096986045136,131072
+helium     13438  0.0  0.6 1184806476 100340 ?   Sl   16:26   0:00 /opt/google/chrome/chrome --type=renderer --crashpad-handler-pid=3779 --enable-crash-reporter=9cfe26fc-8beb-4b07-ba14-945f54dbe8f8, --change-stack-guard-on-fork=enable --lang=en-US --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=187 --time-ticks-at-unix-epoch=-1672750533161386 --launch-time-ticks=5470484106 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=0,i,2371336294251832801,16728536096986045136,131072
+helium     13459  0.0  0.7 1184806476 115388 ?   Sl   16:26   0:00 /opt/google/chrome/chrome --type=renderer --crashpad-handler-pid=3779 --enable-crash-reporter=9cfe26fc-8beb-4b07-ba14-945f54dbe8f8, --change-stack-guard-on-fork=enable --lang=en-US --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=188 --time-ticks-at-unix-epoch=-1672750533161386 --launch-time-ticks=5472373867 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=0,i,2371336294251832801,16728536096986045136,131072
+helium     13470  0.0  0.6 1184806476 106484 ?   Sl   16:26   0:00 /opt/google/chrome/chrome --type=renderer --crashpad-handler-pid=3779 --enable-crash-reporter=9cfe26fc-8beb-4b07-ba14-945f54dbe8f8, --change-stack-guard-on-fork=enable --lang=en-US --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=189 --time-ticks-at-unix-epoch=-1672750533161386 --launch-time-ticks=5472378358 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=0,i,2371336294251832801,16728536096986045136,131072
+helium     13477  0.0  0.6 1184806476 96648 ?    Sl   16:26   0:00 /opt/google/chrome/chrome --type=renderer --crashpad-handler-pid=3779 --enable-crash-reporter=9cfe26fc-8beb-4b07-ba14-945f54dbe8f8, --change-stack-guard-on-fork=enable --lang=en-US --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=190 --time-ticks-at-unix-epoch=-1672750533161386 --launch-time-ticks=5472382835 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=0,i,2371336294251832801,16728536096986045136,131072
+helium     13487  0.0  0.5 1184806476 95652 ?    Sl   16:26   0:00 /opt/google/chrome/chrome --type=renderer --crashpad-handler-pid=3779 --enable-crash-reporter=9cfe26fc-8beb-4b07-ba14-945f54dbe8f8, --change-stack-guard-on-fork=enable --lang=en-US --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=191 --time-ticks-at-unix-epoch=-1672750533161386 --launch-time-ticks=5472387248 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=0,i,2371336294251832801,16728536096986045136,131072
+helium     13505  0.0  0.6 1184806476 102904 ?   Sl   16:26   0:00 /opt/google/chrome/chrome --type=renderer --crashpad-handler-pid=3779 --enable-crash-reporter=9cfe26fc-8beb-4b07-ba14-945f54dbe8f8, --change-stack-guard-on-fork=enable --lang=en-US --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=193 --time-ticks-at-unix-epoch=-1672750533161386 --launch-time-ticks=5472396265 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=0,i,2371336294251832801,16728536096986045136,131072
+helium     13530  0.0  0.6 1184806476 101364 ?   Sl   16:26   0:00 /opt/google/chrome/chrome --type=renderer --crashpad-handler-pid=3779 --enable-crash-reporter=9cfe26fc-8beb-4b07-ba14-945f54dbe8f8, --change-stack-guard-on-fork=enable --lang=en-US --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=195 --time-ticks-at-unix-epoch=-1672750533161386 --launch-time-ticks=5472407746 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=0,i,2371336294251832801,16728536096986045136,131072
+helium     13540  0.0  0.6 1184806476 97508 ?    Sl   16:26   0:00 /opt/google/chrome/chrome --type=renderer --crashpad-handler-pid=3779 --enable-crash-reporter=9cfe26fc-8beb-4b07-ba14-945f54dbe8f8, --change-stack-guard-on-fork=enable --lang=en-US --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=196 --time-ticks-at-unix-epoch=-1672750533161386 --launch-time-ticks=5472414553 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=0,i,2371336294251832801,16728536096986045136,131072
+helium     13548  0.0  0.6 1184806476 101764 ?   Sl   16:26   0:00 /opt/google/chrome/chrome --type=renderer --crashpad-handler-pid=3779 --enable-crash-reporter=9cfe26fc-8beb-4b07-ba14-945f54dbe8f8, --change-stack-guard-on-fork=enable --lang=en-US --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=197 --time-ticks-at-unix-epoch=-1672750533161386 --launch-time-ticks=5472420566 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=0,i,2371336294251832801,16728536096986045136,131072
+helium     13561  0.0  0.6 1184806476 98600 ?    Sl   16:26   0:00 /opt/google/chrome/chrome --type=renderer --crashpad-handler-pid=3779 --enable-crash-reporter=9cfe26fc-8beb-4b07-ba14-945f54dbe8f8, --change-stack-guard-on-fork=enable --lang=en-US --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=198 --time-ticks-at-unix-epoch=-1672750533161386 --launch-time-ticks=5472427137 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=0,i,2371336294251832801,16728536096986045136,131072
+helium     13612  0.0  0.6 1184806476 98708 ?    Sl   16:26   0:00 /opt/google/chrome/chrome --type=renderer --crashpad-handler-pid=3779 --enable-crash-reporter=9cfe26fc-8beb-4b07-ba14-945f54dbe8f8, --change-stack-guard-on-fork=enable --lang=en-US --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=200 --time-ticks-at-unix-epoch=-1672750533161386 --launch-time-ticks=5472578578 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=0,i,2371336294251832801,16728536096986045136,131072
+helium     13621  0.0  0.6 1184806476 100820 ?   Sl   16:26   0:00 /opt/google/chrome/chrome --type=renderer --crashpad-handler-pid=3779 --enable-crash-reporter=9cfe26fc-8beb-4b07-ba14-945f54dbe8f8, --change-stack-guard-on-fork=enable --lang=en-US --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=201 --time-ticks-at-unix-epoch=-1672750533161386 --launch-time-ticks=5472594557 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=0,i,2371336294251832801,16728536096986045136,131072
+helium     13694  0.0  0.6 1184806476 98416 ?    Sl   16:26   0:00 /opt/google/chrome/chrome --type=renderer --crashpad-handler-pid=3779 --enable-crash-reporter=9cfe26fc-8beb-4b07-ba14-945f54dbe8f8, --change-stack-guard-on-fork=enable --lang=en-US --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=205 --time-ticks-at-unix-epoch=-1672750533161386 --launch-time-ticks=5472879004 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=0,i,2371336294251832801,16728536096986045136,131072
+helium     13724  0.0  0.5 1184806476 96384 ?    Sl   16:26   0:00 /opt/google/chrome/chrome --type=renderer --crashpad-handler-pid=3779 --enable-crash-reporter=9cfe26fc-8beb-4b07-ba14-945f54dbe8f8, --change-stack-guard-on-fork=enable --lang=en-US --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=207 --time-ticks-at-unix-epoch=-1672750533161386 --launch-time-ticks=5472944601 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=0,i,2371336294251832801,16728536096986045136,131072
+helium     13736  0.0  0.6 1184806476 96620 ?    Sl   16:26   0:00 /opt/google/chrome/chrome --type=renderer --crashpad-handler-pid=3779 --enable-crash-reporter=9cfe26fc-8beb-4b07-ba14-945f54dbe8f8, --change-stack-guard-on-fork=enable --lang=en-US --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=208 --time-ticks-at-unix-epoch=-1672750533161386 --launch-time-ticks=5472954169 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=0,i,2371336294251832801,16728536096986045136,131072
+helium     13742  0.0  0.5 1184806476 96432 ?    Sl   16:26   0:00 /opt/google/chrome/chrome --type=renderer --crashpad-handler-pid=3779 --enable-crash-reporter=9cfe26fc-8beb-4b07-ba14-945f54dbe8f8, --change-stack-guard-on-fork=enable --lang=en-US --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=209 --time-ticks-at-unix-epoch=-1672750533161386 --launch-time-ticks=5472964941 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=0,i,2371336294251832801,16728536096986045136,131072
+helium     13752  0.0  0.6 1184806476 96900 ?    Sl   16:26   0:00 /opt/google/chrome/chrome --type=renderer --crashpad-handler-pid=3779 --enable-crash-reporter=9cfe26fc-8beb-4b07-ba14-945f54dbe8f8, --change-stack-guard-on-fork=enable --lang=en-US --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=210 --time-ticks-at-unix-epoch=-1672750533161386 --launch-time-ticks=5472974227 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=0,i,2371336294251832801,16728536096986045136,131072
+helium     13773  0.0  0.6 1184806476 98940 ?    Sl   16:26   0:00 /opt/google/chrome/chrome --type=renderer --crashpad-handler-pid=3779 --enable-crash-reporter=9cfe26fc-8beb-4b07-ba14-945f54dbe8f8, --change-stack-guard-on-fork=enable --lang=en-US --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=212 --time-ticks-at-unix-epoch=-1672750533161386 --launch-time-ticks=5472998052 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=0,i,2371336294251832801,16728536096986045136,131072
+helium     13860  0.0  0.6 1184806476 97076 ?    Sl   16:26   0:00 /opt/google/chrome/chrome --type=renderer --crashpad-handler-pid=3779 --enable-crash-reporter=9cfe26fc-8beb-4b07-ba14-945f54dbe8f8, --change-stack-guard-on-fork=enable --lang=en-US --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=217 --time-ticks-at-unix-epoch=-1672750533161386 --launch-time-ticks=5475785750 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=0,i,2371336294251832801,16728536096986045136,131072
+helium     13885  0.0  0.6 1184806476 97424 ?    Sl   16:26   0:00 /opt/google/chrome/chrome --type=renderer --crashpad-handler-pid=3779 --enable-crash-reporter=9cfe26fc-8beb-4b07-ba14-945f54dbe8f8, --change-stack-guard-on-fork=enable --lang=en-US --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=220 --time-ticks-at-unix-epoch=-1672750533161386 --launch-time-ticks=5475805159 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=0,i,2371336294251832801,16728536096986045136,131072
+helium     13901  0.0  0.6 1184806476 97564 ?    Sl   16:26   0:00 /opt/google/chrome/chrome --type=renderer --crashpad-handler-pid=3779 --enable-crash-reporter=9cfe26fc-8beb-4b07-ba14-945f54dbe8f8, --change-stack-guard-on-fork=enable --lang=en-US --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=221 --time-ticks-at-unix-epoch=-1672750533161386 --launch-time-ticks=5475813058 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=0,i,2371336294251832801,16728536096986045136,131072
+helium     13938  0.0  0.6 1184806476 97636 ?    Sl   16:26   0:00 /opt/google/chrome/chrome --type=renderer --crashpad-handler-pid=3779 --enable-crash-reporter=9cfe26fc-8beb-4b07-ba14-945f54dbe8f8, --change-stack-guard-on-fork=enable --lang=en-US --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=224 --time-ticks-at-unix-epoch=-1672750533161386 --launch-time-ticks=5475844870 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=0,i,2371336294251832801,16728536096986045136,131072
+helium     13945  0.0  0.6 1184806476 97488 ?    Sl   16:26   0:00 /opt/google/chrome/chrome --type=renderer --crashpad-handler-pid=3779 --enable-crash-reporter=9cfe26fc-8beb-4b07-ba14-945f54dbe8f8, --change-stack-guard-on-fork=enable --lang=en-US --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=225 --time-ticks-at-unix-epoch=-1672750533161386 --launch-time-ticks=5475852758 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=0,i,2371336294251832801,16728536096986045136,131072
+helium     14077  0.0  0.6 1184806476 97784 ?    Sl   16:26   0:00 /opt/google/chrome/chrome --type=renderer --crashpad-handler-pid=3779 --enable-crash-reporter=9cfe26fc-8beb-4b07-ba14-945f54dbe8f8, --change-stack-guard-on-fork=enable --lang=en-US --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=228 --time-ticks-at-unix-epoch=-1672750533161386 --launch-time-ticks=5485112575 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=0,i,2371336294251832801,16728536096986045136,131072
+root       14721  0.1  0.0      0     0 ?        I<   16:32   0:02 [kworker/u17:0-rb_allocator]
+root       15050  0.0  0.0      0     0 ?        I    16:38   0:00 [kworker/1:0-mm_percpu_wq]
+root       15203  0.0  0.0      0     0 ?        I    16:41   0:00 [kworker/u16:3-ext4-rsv-conversion]
+root       15319  0.0  0.0      0     0 ?        I    16:42   0:00 [kworker/2:1-events]
+root       15326  0.0  0.0      0     0 ?        I    16:43   0:00 [kworker/0:1-events]
+root       15788  0.2  0.0      0     0 ?        I    16:48   0:01 [kworker/6:1-mm_percpu_wq]
+root       15844  0.0  0.0      0     0 ?        I    16:49   0:00 [kworker/2:0-events]
+root       16305  0.0  0.0      0     0 ?        I    16:52   0:00 [kworker/5:0-events]
+root       16335  0.0  0.0      0     0 ?        I    16:54   0:00 [kworker/0:0-events]
+root       16336  0.0  0.0      0     0 ?        I    16:54   0:00 [kworker/1:1-events]
+root       16368  0.0  0.0      0     0 ?        I    16:54   0:00 [kworker/3:2-events]
+root       16382  0.0  0.0      0     0 ?        I    16:55   0:00 [kworker/4:0-events]
+root       16461  0.0  0.0      0     0 ?        I    16:56   0:00 [kworker/6:2-events]
+root       16494  0.0  0.0      0     0 ?        I<   16:56   0:00 [kworker/u17:1-i915_flip]
+root       16720  0.0  0.0      0     0 ?        I    16:57   0:00 [kworker/7:2-events]
+root       16903  0.0  0.0      0     0 ?        I    16:58   0:00 [kworker/5:1-mm_percpu_wq]
+root       17069  0.0  0.0      0     0 ?        I    16:59   0:00 [kworker/1:2-mm_percpu_wq]
+root       17083  0.0  0.0      0     0 ?        I    16:59   0:00 [kworker/2:2-events]
+root       17097  0.0  0.0      0     0 ?        I    17:00   0:00 [kworker/0:2-events]
+root       17098  0.0  0.0      0     0 ?        I    17:00   0:00 [kworker/3:0-events]
+root       17103  0.0  0.0      0     0 ?        I    17:00   0:00 [kworker/4:2-events]
+root       17105  0.0  0.0      0     0 ?        I    17:00   0:00 [kworker/u16:1-events_unbound]
+helium     17131  0.0  0.4 1184740760 66032 ?    Sl   17:01   0:00 /opt/google/chrome/chrome --type=renderer --crashpad-handler-pid=3779 --enable-crash-reporter=9cfe26fc-8beb-4b07-ba14-945f54dbe8f8, --change-stack-guard-on-fork=enable --lang=en-US --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=247 --time-ticks-at-unix-epoch=-1672750533161386 --launch-time-ticks=7585111796 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=0,i,2371336294251832801,16728536096986045136,131072
+root       17161  0.0  0.0      0     0 ?        I<   17:02   0:00 [kworker/u17:2]
+root       17168  0.0  0.0      0     0 ?        I    17:02   0:00 [kworker/6:0-events]
+root       17218  0.0  0.0      0     0 ?        I    17:02   0:00 [kworker/u16:4]
+root       17257  0.0  0.0      0     0 ?        I    17:03   0:00 [kworker/5:2-events]
+root       17260  0.0  0.0      0     0 ?        I    17:03   0:00 [kworker/7:0-events]
+helium     17294  0.0  0.0   2640   988 pts/4    S+   17:04   0:00 ./a.out
+helium     17366  0.0  0.0  23856  3488 pts/4    R+   17:04   0:00 ps aux

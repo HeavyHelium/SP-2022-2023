@@ -1,0 +1,10 @@
+a.out
+dish
+ file1
+ inp.txt
+interpreter
+interpreter.c
+new_out.txt
+output.txt
+out.txt
+README.md
