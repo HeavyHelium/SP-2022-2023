@@ -5,7 +5,7 @@
 #include <sys/wait.h>
 #include <fcntl.h>
 
-// Let's go change the world!
+
 int main() { 
 
     int fdi, fdio, nb1, nb2;
