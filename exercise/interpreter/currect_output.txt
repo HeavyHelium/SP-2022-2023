@@ -1,0 +1,18 @@
+total 180K
+-rwxrwxr-x 1 helium helium  17K Jan  3 17:08 a.out
+-rw-r--r-- 1 helium helium    0 Jan  6 14:36 currect_output.txt
+-rwxrwxr-x 1 helium helium  17K Jan  3 17:21 dish
+-rw-rw-r-- 1 helium helium    6 Jan  3 16:21 echo_output.txt
+-rw-rw-r-- 1 helium helium   42 Jan  3 13:18  file1
+-rw-rw-r-- 1 helium helium    6 Jan  3 13:28  inp.txt
+-rwxrwxr-x 1 helium helium  22K Jan  3 16:17 interpreter
+-rw-rw-r-- 1 helium helium 6.4K Jan  3 17:16 interpreter.c
+-rw-r--r-- 1 helium helium  133 Jan  3 16:56 ls_out
+-rw-r--r-- 1 helium helium  144 Jan  3 16:57 ls_out_new
+-rw-r--r-- 1 helium helium  126 Jan  3 16:50      ls_out.txt
+-rw-rw-r-- 1 helium helium   94 Jan  3 16:18 new_out.txt
+-rw-rw-r-- 1 helium helium   43 Jan  3 13:20 output.txt
+-rw-rw-r-- 1 helium helium   70 Jan  3 13:30 out.txt
+-rw-r--r-- 1 helium helium  63K Jan  3 17:04 ps_output
+-rw-rw-r-- 1 helium helium  328 Jan  3 17:21 README.md
+-rw-r--r-- 1 helium helium   43 Jan  3 17:09 working_dir

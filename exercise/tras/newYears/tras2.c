@@ -18,9 +18,7 @@ int main() {
             printf("Stoinostta na i = %d;", i);
         }
     }
-    // parent process continues here,
-    // child process has already exited, 
-    // as execlp() has replaced it with ps
+
     printf("Stoinostta na i = %d;", --i); // print to stdout "Stoinostta na i = 0;"
 
 

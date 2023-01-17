@@ -35,5 +35,4 @@ int main() {
         read(fd[0], &other_sum, sizeof(other_sum));
         printf("Total sum is: %d\n", other_sum + sum);
     }
-
 }

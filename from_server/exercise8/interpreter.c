@@ -4,34 +4,48 @@
 #include <unistd.h>
 #include <sys/wait.h>
 
+
+const char* EXIT = "exit";
+const char* ERROR_MESSAGE = "Execution failed!\n";
+
+#define TRUE 1
+#define FALSE 0
+
+
+int is_whitespace(char ch) { 
+	return ch == ' ' || ch == '\t';
+} 
+
+
 int main() { 
-	const char* EXIT = "exit";
-	const char* ERROR_MESSAGE = "Execution failed!\n";
+	
 	char buffer[300];	
 	char ch;	
 	int cid = 0;
 		
-	int prev_lf = 1;
+	int prev_lf = TRUE;
 	char num_buffer[30];
 	
-	while(1) {
+	while(TRUE) {
 		if(prev_lf) { 
 			write(1, "> ", 2);
 		}
+
 		read(0, &ch, 1);
-		if(ch == ' ') { 
-			prev_lf = 0;
+		if(is_whitespace(ch)) { { 
+			prev_lf = FALSE;
  			continue;
 		}
 		if(ch != '\n') { 
 			buffer[cid++] = ch;
-			prev_lf = 0;
+			prev_lf = FALSE;
+
 		} else {
 			if(cid <= 1) { 
 				cid = 0;
 				continue;
 			}
-			prev_lf = 1;
+			prev_lf = TRUE;
 			buffer[cid] = '\0';	
 			int prev_amp = buffer[cid - 1] == '&';
 			if(prev_amp) {
