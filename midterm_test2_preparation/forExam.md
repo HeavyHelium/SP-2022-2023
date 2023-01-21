@@ -230,17 +230,19 @@ int socket(int domain, int type, int protocol);
 // creates an endpoint
 ```
 
-Създава сокет и връща файлов дескриптор към него, който е първият във възходящ ред незает файлов дескриптор. 
+Създава сокет(крайна точка за комуникация) и връща файлов дескриптор към него, който е първият във възходящ ред незает файлов дескриптор. 
 
 ```domain``` указва коя фамилия протоколи ще се използва за комуникация  
+
 ```type``` указва типа на сокета(дали е двупосочен и т.н.)  
+
 ```protocol``` указва конкретен протокол, който да бъде използва с този сокет  сс
 
 ```c
  int connect(int sockfd, const struct sockaddr *addr,
              socklen_t addrlen);
 ```
-
+Изпраща заявка до именуван сокет за изграждане на връзка.  
 Свързва сокета, сочен от файловия дескриптор с подадения адрес.
 
 ```c
@@ -248,6 +250,8 @@ int socket(int domain, int type, int protocol);
           socklen_t addrlen);
 
 ```
+Присвоява име на сокета(става видим в пространството на имената).
+
 When a socket is created with socket(2), it exists in a name space (ad‐
 dress family) but has no address assigned to it.   bind()  assigns  the
 address  specified  by  addr  to the socket referred to by the file de‐
@@ -258,6 +262,16 @@ structure  pointed to by addr.  Traditionally, this operation is called
 ```c
 int listen(int sockfd, int backlog);
 ```  
+Слуша за заявки от други процеси за изграждане на връзка.
+
 listen()  marks  the  socket referred to by sockfd as a passive socket,
 that is, as a socket that will be used to  accept  incoming  connection
 requests using accept(2). 
+
+```c
+int accept(int sockfd, struct sockaddr*, socklen_t* length);
+
+```  
+Приема заявка за изграждане на връзка.
+
+
