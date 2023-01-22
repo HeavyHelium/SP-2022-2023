@@ -109,9 +109,6 @@ int in(char ch, const char* str) {
     return FALSE;
 }
 
-/// @brief  Splits a line into two strings by a delimiter.
-/// @param delimiters const char*; they are supposed to be single characters
-/// @return the ASCII code of the delimiter, or -1 if there is no delimiter
 int split_multi(const char* delimiters, 
                 char* line, 
                 char* str1, 
@@ -279,3 +276,4 @@ int main() {
 
     return 0;    
 }
+

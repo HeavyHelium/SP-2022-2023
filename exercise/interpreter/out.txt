@@ -1,8 +1,6 @@
 a.out
-dish
- file1
- inp.txt
+interpreter1.c
+interpreter2.c
 interpreter.c
-output.txt
 out.txt
 README.md
